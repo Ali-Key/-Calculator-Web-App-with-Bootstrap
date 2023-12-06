@@ -5,8 +5,16 @@
 	font-family: sans-serif;
 }
 
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f2f2f2;
+}
+
 .app {
-  margin-top: 30px;
+	margin-top: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -69,7 +77,6 @@
 .keys {
 	background-color: #9da0a8;
 	padding: 1.5rem;
-	
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(5, 1fr);
@@ -113,11 +120,29 @@
 }
 
 h4 {
-  
-  margin-top: 1.2%;
-  text-align: center;
-  justify-content: center;
+	margin-top: 1.2%;
+	text-align: center;
+	justify-content: center;
 	align-items: center;
-  color: #2680fe;
-	
+	color: #2680fe;
+}
+
+@media (max-width: 768px) {
+	.calculator {
+		width: 90%;
+		min-height: 500px;
+	}
+
+	.display .output {
+		font-size: 2.5rem;
+	}
+
+	.keys {
+		padding: 1rem;
+		grid-gap: 0.5rem;
+	}
+
+	.keys .key span {
+		font-size: 1.5rem;
+	}
 }
