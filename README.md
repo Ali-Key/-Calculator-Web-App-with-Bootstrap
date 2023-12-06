@@ -2,6 +2,10 @@
 
 This is a simple calculator web app built using HTML, CSS (with Bootstrap), and JavaScript. The calculator allows users to perform basic arithmetic calculations with additional features such as clearing, backspacing, handling brackets, and percentage calculations.
 
+## Demo
+
+You can access the Simple Calculator Web App by clicking on the following link: [Simple Calculator Web App](https://simplecalculatorwebapplication.netlify.app/)
+
 ## Code Structure
 
 The code is structured as follows:
@@ -30,6 +34,10 @@ To use the calculator web app:
 2. Enter numeric values and use the provided buttons to perform calculations.
 3. The input and output displays will show the entered expression and the calculated result, respectively.
 
+## Contributing
 
-simplecalculatorwebapplication.netlify.app
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request.
 
+## Credits
+
+This calculator web app was created by Ali Omar Abdi and Mohamed Abdullahi Hassan.
